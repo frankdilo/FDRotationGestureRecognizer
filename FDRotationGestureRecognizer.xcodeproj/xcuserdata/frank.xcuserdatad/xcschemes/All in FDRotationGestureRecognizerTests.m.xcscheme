@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01DCBE0C1B37214B00EC7B02"
+               BuildableName = "FDRotationGestureRecognizerTests.xctest"
+               BlueprintName = "FDRotationGestureRecognizerTests"
+               ReferencedContainer = "container:FDRotationGestureRecognizer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01DCBE0C1B37214B00EC7B02"
+               BuildableName = "FDRotationGestureRecognizerTests.xctest"
+               BlueprintName = "FDRotationGestureRecognizerTests"
+               ReferencedContainer = "container:FDRotationGestureRecognizer.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>

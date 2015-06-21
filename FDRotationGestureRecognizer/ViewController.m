@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FDRotationGestureRecognizer.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.redSquare = [[UIView alloc] initWithFrame:CGRectMake(self.view.center.x-50, self.view.center.y-50, 100, 100)];
+    self.redSquare.backgroundColor = [UIColor redColor];
+
+    [self.view addSubview:self.redSquare];
+
+    FDRotationGestureRecognizer *gr = [[FDRotationGestureRecognizer alloc] initWithCenter:self.view.center];
+    [gr addTarget:self action:@selector(rotationPerformed:)];
+    [self.view addGestureRecognizer:gr];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)rotationPerformed:(FDRotationGestureRecognizer *)gestureRec {
+    self.redSquare.transform = CGAffineTransformMakeRotation(-[gestureRec rotation]);
 }
+
 
 @end

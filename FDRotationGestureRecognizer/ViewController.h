@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class AngleView;
+
 @interface ViewController : UIViewController
 
+@property(nonatomic, strong) UIView *redSquare;
 
 @end
 
