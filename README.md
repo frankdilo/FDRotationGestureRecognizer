@@ -18,6 +18,6 @@ Basically when the user starts the gesture, the initial tap coordinates are reco
 
 ## Credits
 
-I created this component while building the MyFertility app to implement the circular day picker. Thanks to Davide and Return Service for letting me open source it :)
+I created this component while building the [MyFertility app](https://itunes.apple.com/it/app/my-fertility/id862972591?mt=8) to implement the circular day picker. Thanks to [@dzamir](https://twitter.com/dzamir) and Return Service for letting me open source it :)
 
 ![](https://github.com/frankdilo/FDRotationGestureRecognizer/raw/master/Other/myfert.jpeg)
